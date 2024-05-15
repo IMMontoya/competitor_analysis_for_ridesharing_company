@@ -24,7 +24,7 @@ O'Hare International Airport changes on rainy Saturdays." [Jump to insights.](#o
 
 #### 2.1 Query for Trips by Company
 
-Retrieves data from `project_sql_result_01.csv`.
+Retrieves data found in `project_sql_result_01.csv`.
 
 ```sql
 --- Gets the number of trips for each company on 2017-11-15 and 2017-11-16
@@ -44,7 +44,7 @@ ORDER BY
 
 #### 2.2 Query for Trips by Neighborhood
 
-Retrieves data from `project_sql_result_04.csv`.
+Retrieves data found in `project_sql_result_04.csv`.
 
 ```sql
 --- Gets the number of trips that ended in each neighborhood in November 2017, sorted in descending order
@@ -65,7 +65,7 @@ ORDER BY
 
 #### 2.3 Query for Specific Ride Conditions
 
-Retrieves data from `project_sql_result_07.csv`.
+Retrieves data found in `project_sql_result_07.csv`.
 
 ```sql
 --- Gets all the rides that started in the Loop and ended at O'Hare on a Saturday, and the weather conditions for each ride.
