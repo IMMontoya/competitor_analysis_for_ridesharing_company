@@ -1,6 +1,11 @@
 
 # Competitor Analysis for Ride Sharing Company
 
+Zuber, a new ride-sharing company that's launching in Chicago, has gathered data on their competitors' and want to find patterns within that dataset. Specifically they are looking for passenger preferences and the impact of weather on rides.  
+
+Working with the database, I have uncovered key insights into passenger behavior and tested the hypothesis "The duration of rides from the the Loop to
+O'Hare International Airport changes on rainy Saturdays." [Jump to insights.](#observations-and-insights)
+
 ## Data Gathering
 
 ### 1. Website Parsing
