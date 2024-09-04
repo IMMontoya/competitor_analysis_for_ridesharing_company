@@ -4,15 +4,21 @@
 Zuber, a new ride-sharing company that's launching in Chicago, has gathered data on their competitors' and want to find patterns within that dataset. Specifically they are looking for passenger preferences and the impact of weather on rides.  
 
 Working with the database, I have uncovered key insights into passenger behavior and tested the hypothesis "The duration of rides from the the Loop to
-O'Hare International Airport changes on rainy Saturdays." [Jump to insights.](#observations-and-insights)
+O'Hare International Airport changes on rainy Saturdays."  
+
+## Table of Contents
+
+[Notebook](EDA.ipynb)  
+[Data Gathering](#data-gathering)  
+[Website Parser](website_parser.py)  
+[Observations and Insights](#observations-and-insights)  
+[Conclusion](#conclusion)  
 
 ## Data Gathering
 
 ### 1. Website Parsing
 
 [This script](/website_parser.py) gathers the weather information for Chicago Weather Records of November 2017 from [an open source data set](https://practicum-content.s3.us-west-1.amazonaws.com/data-analyst-eng/moved_chicago_weather_2017.html) and builds the `weather_records` table in the relational database.
-
-- **Libraries Used**: `requests`, `pandas`, `BeautifulSoup`
 
 ### 2. PostgreSQL Database Queries
 
@@ -89,11 +95,7 @@ ORDER BY
     trips.trip_id;
 ```
 
-## Final Analysis in Jupyter Notebook
-
-[Link to notebook](/EDA.ipynb)
-
-### Observations and Insights
+## Observations and Insights
 
 1. **Neighborhood Analysis**: The Loop neighborhood proves to be the most common destination for the month of November 2017. ![Top Ten Neighborhoods](/images/top_10_neighborhoods.png)
 2. **Company Performance**: The Flash Cab company proves to be the most used cab services between November 15th and 16th, 2017, leading the second place by almost double. ![Top Ten Companies](/images/top_10_companies.png)
@@ -102,3 +104,12 @@ ORDER BY
 ## Conclusion
 
 This analysis offers  insights into Chicago's ride-sharing market during November 2017, focusing on neighborhood preferences, company performance, and the influence of weather on ride durations. By analyzing data from various sources, we've highlighted significant findings such as the Loop neighborhood's popularity, Flash Cab's dominant market performance, and the measurable impact of weather conditions on trip durations between specific locations. These insights are crucial for refining strategic decisions, enhancing service efficiency, and gaining a competitive edge in the ride-sharing industry.
+
+## Libraries Used
+
+Python 3.10.9  
+pandas=2.0.3  
+matplotlib=3.7.1  
+scipy=1.13.0  
+requests=2.31.0  
+bs4=4.12.2  
