@@ -1,5 +1,5 @@
 
-# Competitor Analysis for Ride Sharing Company
+# Competitor Customer Analysis for Ride Sharing Company
 
 Zuber, a new ride-sharing company that's launching in Chicago, has gathered data on their competitors' and want to find patterns within that dataset. Specifically they are looking for passenger preferences and the impact of weather on rides.  
 
